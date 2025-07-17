@@ -1,0 +1,27 @@
+/* Additional custom styles if needed */
+.transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Story card hover effect */
+.bg-white:hover, .dark\\:bg-gray-800:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+/* Ensure text is readable in dark mode */
+.dark .text-gray-600 {
+    color: #d1d5db;
+}
+
+.dark .text-gray-700 {
+    color: #e5e7eb;
+}
