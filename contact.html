@@ -64,6 +64,135 @@
   </header>
 
 
+    <!-- Contact Content -->
+    <section class="py-16 max-w-6xl mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">Contact Us</h2>
+            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">Have questions, suggestions, or feedback? We'd love to hear from you!</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Get in Touch</h3>
+                <form id="contact-form" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Your Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email Address</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Subject</label>
+                        <input type="text" id="subject" name="subject" required class="w-full px-4 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white"></textarea>
+                    </div>
+                    <button type="submit" class="px-6 py-3 bg-purple-600 text-white font-medium rounded-md hover:bg-purple-700">Send Message</button>
+                </form>
+                <div id="form-success" class="hidden mt-4 p-4 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-md">
+                    Thank you for your message! We'll get back to you soon.
+                </div>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Contact Information</h3>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 h-10 w-10 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-map-marker-alt text-purple-600 dark:text-purple-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium text-gray-800 dark:text-white">Address</h4>
+                            <p class="text-gray-600 dark:text-gray-300">123 Story Lane, Gambella City, ET</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 h-10 w-10 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-phone text-purple-600 dark:text-purple-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium text-gray-800 dark:text-white">Phone</h4>
+                            <p class="text-gray-600 dark:text-gray-300">+254791376636</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 h-10 w-10 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center mr-4">
+                            <i class="fas fa-envelope text-purple-600 dark:text-purple-400"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium text-gray-800 dark:text-white">Email</h4>
+                            <p class="text-gray-600 dark:text-gray-300">contact@locallegends.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h4 class="text-lg font-medium text-gray-800 dark:text-white mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-purple-600 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-purple-600 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-purple-600 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-purple-600 hover:text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
+            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4 text-center">Frequently Asked Questions</h3>
+            <div class="space-y-4">
+                <div class="border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="flex justify-between items-center w-full text-left font-medium text-gray-800 dark:text-white">
+                        <span>How do I publish a story?</span>
+                        <i class="fas fa-chevron-down text-purple-600 dark:text-purple-400"></i>
+                    </button>
+                    <div class="mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>To publish a story, simply click on the "Add Story" button in the navigation menu. You'll need to be logged in to submit a story. Fill out the form with your story details and click "Publish Story" when you're done.</p>
+                    </div>
+                </div>
+                <div class="border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="flex justify-between items-center w-full text-left font-medium text-gray-800 dark:text-white">
+                        <span>Can I edit my story after publishing?</span>
+                        <i class="fas fa-chevron-down text-purple-600 dark:text-purple-400"></i>
+                    </button>
+                    <div class="mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>Currently, we don't support editing stories after they've been published. Please review your story carefully before submitting. If you need to make significant changes, you can contact our support team.</p>
+                    </div>
+                </div>
+                <div class="border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="flex justify-between items-center w-full text-left font-medium text-gray-800 dark:text-white">
+                        <span>Are there any content guidelines?</span>
+                        <i class="fas fa-chevron-down text-purple-600 dark:text-purple-400"></i>
+                    </button>
+                    <div class="mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>Yes, we have community guidelines that prohibit hate speech, harassment, and explicit adult content. All stories are subject to review, and we reserve the right to remove content that violates our guidelines.</p>
+                    </div>
+                </div>
+                <div class="border-b border-gray-200 dark:border-gray-700 pb-4">
+                    <button class="flex justify-between items-center w-full text-left font-medium text-gray-800 dark:text-white">
+                        <span>How can I delete my account?</span>
+                        <i class="fas fa-chevron-down text-purple-600 dark:text-purple-400"></i>
+                    </button>
+                    <div class="mt-2 text-gray-600 dark:text-gray-300 hidden">
+                        <p>To delete your account, go to your profile settings and click on "Delete Account." Please note that this action is irreversible and will remove all your stories and data from our platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Footer -->
     <footer class="bg-white dark:bg-gray-800 py-8">
         <div class="max-w-6xl mx-auto px-4">
@@ -81,6 +210,10 @@
             </div>
         </div>
     </footer>
+
+      <script src="auth.js"></script>
+    <script src="main.js"></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>

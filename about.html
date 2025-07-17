@@ -63,6 +63,63 @@
     </nav>
   </header>
 
+  <!-- About Content -->
+    <section class="py-16 max-w-6xl mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">About Local-legends</h2>
+            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">Discover the magic of storytelling with our passionate community of writers and readers.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Our Mission</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">At Local-legends, we believe everyone has a story to tell. Our mission is to provide a platform where writers of all levels can share their stories and connect with readers who appreciate their work.</p>
+                <p class="text-gray-600 dark:text-gray-300">Whether you're an experienced author or just starting your writing journey, StoryVerse is the perfect place to showcase your creativity.</p>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Our Community</h3>
+                <p class="text-gray-600 dark:text-gray-300 mb-4">With thousands of active members, our community is vibrant and supportive. Readers can discover new stories across various genres, while writers receive valuable feedback and encouragement.</p>
+                <p class="text-gray-600 dark:text-gray-300">Join us today and become part of this growing family of storytellers and story lovers!</p>
+            </div>
+        </div>
+
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 mb-12">
+            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-6 text-center">Meet the Team</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center">
+                        <i class="fas fa-user text-4xl text-purple-600 dark:text-purple-400"></i>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-800 dark:text-white">Goi Naath</h4>
+                    <p class="text-purple-600 dark:text-purple-400 mb-2">Founder & CEO</p>
+                    <p class="text-gray-600 dark:text-gray-300">Book lover and passionate about creating spaces for storytellers.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center">
+                        <i class="fas fa-user text-4xl text-purple-600 dark:text-purple-400"></i>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-800 dark:text-white">Goi Naath</h4>
+                    <p class="text-purple-600 dark:text-purple-400 mb-2">CTO</p>
+                    <p class="text-gray-600 dark:text-gray-300">Tech enthusiast who loves building platforms that connect people.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center">
+                        <i class="fas fa-user text-4xl text-purple-600 dark:text-purple-400"></i>
+                    </div>
+                    <h4 class="text-xl font-medium text-gray-800 dark:text-white">Goi Naath</h4>
+                    <p class="text-purple-600 dark:text-purple-400 mb-2">Community Manager</p>
+                    <p class="text-gray-600 dark:text-gray-300">Dedicated to fostering a positive environment for our members.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Join Our Journey</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-6 max-w-3xl mx-auto">Local-legends started as a small project in 2020 and has grown into a thriving community. We're excited to see what the future holds and we'd love for you to be part of it.</p>
+            <a href="auth.html" class="px-6 py-3 bg-purple-600 text-white font-medium rounded-md hover:bg-purple-700">Get Started</a>
+        </div>
+    </section>
+
 
     <!-- Footer -->
     <footer class="bg-white dark:bg-gray-800 py-8">
@@ -81,6 +138,15 @@
             </div>
         </div>
     </footer>
+
+        <script src="theme.js"></script>
+    <script src="auth.js"></script>
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            updateAuthButton();
+        });
+    </script>
 </body>
 
 </html>
