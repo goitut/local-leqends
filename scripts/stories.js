@@ -28,7 +28,7 @@ const sampleStories = [
     author: "Arthur Conwell",
     category: "Mystery",
     content: "Detective Clara Bennett stared at the empty display case where the famous Wellington Diamond had been just hours before...",
-    image: "",
+    image: "https://www.pexels.com/photo/dramatic-chicago-skyline-at-dusk-32439561/",
     date: "2023-04-10",
     likes: 28,
     userId: 103
