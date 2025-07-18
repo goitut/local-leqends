@@ -6,7 +6,7 @@ const sampleStories = [
     author: "Emily Windsong",
     category: "Fantasy",
     content: "Once upon a time, in a land far away, there was an enchanted forest where the trees whispered secrets to those who would listen...",
-    image: "",
+    image: "images/grandma.jpg",
     date: "2023-05-15",
     likes: 42,
     userId: 101
@@ -17,10 +17,10 @@ const sampleStories = [
     author: "Marcus Starfield",
     category: "Sci-Fi",
     content: "The year was 3025. Captain Nova and her crew aboard the starship Odyssey were on a mission to explore the farthest reaches of the galaxy...",
-    image: "",
+    image: "images/books.jpg",
     date: "2023-06-22",
     likes: 35,
-    userId: 102
+    userId: 102,
   },
   {
     id: 3,
@@ -28,10 +28,10 @@ const sampleStories = [
     author: "Arthur Conwell",
     category: "Mystery",
     content: "Detective Clara Bennett stared at the empty display case where the famous Wellington Diamond had been just hours before...",
-    image: "https://www.pexels.com/photo/dramatic-chicago-skyline-at-dusk-32439561/",
+    image: "images/some.jpg",
     date: "2023-04-10",
     likes: 28,
-    userId: 103
+    userId: 103,
   }
 ];
 
